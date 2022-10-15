@@ -1,6 +1,9 @@
 import React from "react";
 
-const PaymentForm = () => {
+const PaymentForm = ({shippingData}) => {
+
+  console.warn(shippingData)
+
   return <div>PaymentForm</div>;
 };
 

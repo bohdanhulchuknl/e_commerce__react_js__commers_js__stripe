@@ -5,7 +5,6 @@ import { useFormContext, Controller } from "react-hook-form";
 
 const FormInput = ({ name, label, required }) => {
   const { control } = useFormContext();
-  console.log(name, label, required);
   return (
     <Grid item xs={12} sm={6}>
       <Controller
